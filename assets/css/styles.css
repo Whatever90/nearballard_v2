@@ -4,19 +4,25 @@ p {
 }
 
 #logo{
-  background-image: url("/assets/img/Untitled.png");
+  /* background-image: url("/assets/img/Untitled.png");
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 100%; */
 }
 
 body {
   margin:0px auto;
 }
+#heading{
+  width: 100%;
+}
 
 #header {
   height: 100vh;
-  background-image: url("/assets/img/back.jpg");
+  background-image: url("/assets/img/volvo.jpg");
+  background-position: center;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
 }
-
+.contact_info{
+  float: right;
+}
