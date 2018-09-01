@@ -49,14 +49,12 @@ body {
   border-radius: 4px;
   border-bottom: 1px solid rgba(250, 233, 0, 0.986);
   background: rgb(22, 36, 230);
-  color: rgba(250, 233, 0, 0.986)
+  color: rgba(250, 233, 0, 0.986);
   box-shadow: 0px 0px 0px rgba(250, 233, 0, 0.986);
-  
   -webkit-transform: translateZ(0);
      -moz-transform: translateZ(0);
       -ms-transform: translateZ(0);
           transform: translateZ(0);
-  
   -webkit-transition: all 0.2s ease;
      -moz-transition: all 0.2s ease;
       -ms-transition: all 0.2s ease;
@@ -66,7 +64,6 @@ body {
 .button:hover {
   top: 19.6%;
   box-shadow: 0px 10px 10px rgba(250, 233, 0, 0.986);
-  
   -webkit-transform: rotateX(20deg);
      -moz-transform: rotateX(20deg);
       -ms-transform: rotateX(20deg);
