@@ -22,14 +22,18 @@ body {
   background-size: cover;
   text-align: center;
 }
+#heading-info{
+  /* background-color: rgba(255, 255, 255, 0.274); */
+}
 .contact_info{
   float: right;
 }
+.button-box{
+ top:  50%;
+ margin: 0px auto;
+}
 
 .button {
-  position: absolute;
-  margin: auto 47%;
-  top: 20%;
 }
 .button {
   background: transparent;
@@ -47,10 +51,10 @@ body {
   font-size: 30px;
   font-family: "Open Sans", Helvetica;
   border-radius: 4px;
-  border-bottom: 1px solid rgba(250, 233, 0, 0.986);
-  background: rgb(22, 36, 230);
-  color: rgba(250, 233, 0, 0.986);
-  box-shadow: 0px 0px 0px rgba(250, 233, 0, 0.986);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.986);
+  background: rgb(75, 86, 230);
+  color: rgba(0, 0, 0, 0.986);
+  box-shadow: 0px 0px 0px rgba(66, 62, 6, 0.349);
   -webkit-transform: translateZ(0);
      -moz-transform: translateZ(0);
       -ms-transform: translateZ(0);
@@ -63,7 +67,7 @@ body {
 
 .button:hover {
   top: 19.6%;
-  box-shadow: 0px 10px 10px rgba(250, 233, 0, 0.986);
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.418);
   -webkit-transform: rotateX(20deg);
      -moz-transform: rotateX(20deg);
       -ms-transform: rotateX(20deg);
@@ -72,6 +76,6 @@ body {
 
 .button:active {
   top: 19%;
-  box-shadow: 0px 0px 0px rgba(250, 233, 0, 0.986);;
-  background: rgba(250, 233, 0, 0.986);;
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.312);
+  background: rgba(38, 59, 250, 0.986);
 }

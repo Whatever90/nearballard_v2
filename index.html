@@ -11,16 +11,28 @@
     <link rel="stylesheet" href="assets/css/ebs-contact-form.css">
     <link rel="stylesheet" href="assets/css/Map-Clean.css">
     <link rel="stylesheet" href="assets/css/styles.css">
-    <link rel='shortcut icon' type='image/x-icon' href="favicon.ico"/>
+    <link rel='shortcut icon' type='image/x-icon' href="favicon.ico" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 
 <body>
-    <div class="row" id="header">
+    <script>
+           $(document).ready(function () {
+                $("button").click(function () {
+                    $('html, body').animate({
+                        scrollTop: $("#target").offset().top
+                    }, 1000);
+                });
+            });
+    </script>
+
+
+    <div class="row" id="header" style='display: block;'>
         <div class="col">
             <div class="container" id="heading">
-                <div class="row">
+                <div class="row" id="heading-info">
                     <div class="col-md-6" id="logo">
-                        <img src="assets/img/Untitled.png" width="66%">
+                        <img src="assets/img/Untitled.png" width="66%" style='float: left;'>
                     </div>
                     <div class="col-md-6">
                         <div class="row">
@@ -40,7 +52,9 @@
                 </div>
             </div>
         </div>
-        <button class="button"><span style="color: yellow">Button</span></button>
+        <div class='button-box'>
+            <button class="button"><span style="color: yellow">Set an appoinment</span></button>
+        </div>
     </div>
 
     <div class="map-clean">
@@ -52,7 +66,7 @@
             </div>
         </div><iframe allowfullscreen="" frameborder="0" width="100%" height="450" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyD5rAb7taP3tCOkMKQqVV6ixNhp_iSLsGA%26amp&amp;q=1440+NW+Leary+Way%2C+Seattle%2C+WA%2C+98107&amp;zoom=15"></iframe>
         <div class="container" id="info-container">
-            <div class="row">
+            <div class="row" id="target">
                 <div class="col-md-12">
                     <h2 class="text-center text-info">Contact Us</h2>
                 </div>
@@ -61,11 +75,11 @@
                         cumque, aliquam deleniti voluptatibus voluptas. Repellat vel, et itaque commodi iste ab, laudantium
                         voluptas deserunt nobis. </p>
                     <div class="info-box"><i class="fa fa-map-marker my-info-icons"></i><span class="text-uppercase text-info">Address:
-                            </span><span>MCC Road, Aba, Abia State Nigeria</span></div>
+                        </span><span>MCC Road, Aba, Abia State Nigeria</span></div>
                     <div class="info-box"><i class="fa fa-envelope my-info-icons"></i><span class="text-uppercase text-info">Email:
-                            </span><span>contact@ensignhospital.org </span></div>
+                        </span><span>contact@ensignhospital.org </span></div>
                     <div class="info-box"><i class="fa fa-phone-square my-info-icons"></i><span class="text-uppercase text-info">Phone:
-                            </span><span>+234000000000 </span></div>
+                        </span><span>+234000000000 </span></div>
                 </div>
                 <div class="col-12 col-sm-6 col-md-6 site-form">
                     <form id="my-form">
