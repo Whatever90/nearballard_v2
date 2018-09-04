@@ -1,81 +1,87 @@
 p {
-  font-weight:600;
-  font-size:x-large;
+    font-weight: 600;
+    font-size: x-large;
 }
 
-#logo{
-  float: left;
+#logo {
+    float: left;
 }
 
 body {
-  margin:0px auto;
+    margin: 0px auto;
 }
-#heading{
-  width: 100%;
+
+#heading {
+    width: 100%;
 }
 
 #header {
-  height: 100vh;
-  background-image: url("/assets/img/volvo5.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  text-align: center;
-}
-#heading-info{
-  /* background-color: rgba(255, 255, 255, 0.274); */
-}
-.contact_info{
-  float: right;
-}
-.button-box{
- top:  50%;
- margin: 0px auto;
+    height: 100vh;
+    background-image: url("/assets/img/volvo2.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
 }
 
-.button {
+#heading-info {
+    /* background-color: rgba(255, 255, 255, 0.274); */
 }
-.button {
-  background: transparent;
-  border: 0;
-  padding: 0;
-  cursor: pointer;
-  outline: 0;
-  -webkit-appearance: none;
+
+.contact_info {
+    float: right;
 }
+
+.button-box {
+    top: 50%;
+    margin: 0px auto;
+}
+
+.button {}
+
+.button {
+    background: transparent;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+    outline: 0;
+    -webkit-appearance: none;
+}
+
 
 /* Custom */
+
 .button {
-  display: inline-block;
-  padding: 20px 38px;
-  font-size: 30px;
-  font-family: "Open Sans", Helvetica;
-  border-radius: 4px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.986);
-  background: linear-gradient(45deg, rgb(30, 43, 223), rgb(100, 108, 231));
-  color: rgba(0, 0, 0, 0.986);
-  box-shadow: 0px 0px 0px rgba(66, 62, 6, 0.349);
-  -webkit-transform: translateZ(0);
-     -moz-transform: translateZ(0);
-      -ms-transform: translateZ(0);
-          transform: translateZ(0);
-  -webkit-transition: all 0.2s ease;
-     -moz-transition: all 0.2s ease;
-      -ms-transition: all 0.2s ease;
-          transition: all 0.2s ease;
+    display: inline-block;
+    padding: 20px 38px;
+    font-size: 30px;
+    font-family: "Open Sans", Helvetica;
+    border-radius: 4px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.986);
+    background: linear-gradient(45deg, rgb(30, 43, 223), rgb(100, 108, 231));
+    color: rgba(0, 0, 0, 0.986);
+    box-shadow: 0px 0px 0px rgba(66, 62, 6, 0.349);
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    transition: all 0.2s ease;
 }
 
 .button:hover {
-  top: 19.6%;
-  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.418);
-  -webkit-transform: rotateX(20deg);
-     -moz-transform: rotateX(20deg);
-      -ms-transform: rotateX(20deg);
-          transform: rotateX(20deg);
+    top: 19.6%;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.418);
+    -webkit-transform: rotateX(20deg);
+    -moz-transform: rotateX(20deg);
+    -ms-transform: rotateX(20deg);
+    transform: rotateX(20deg);
 }
 
 .button:active {
-  top: 19%;
-  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.312);
-  background: rgba(38, 59, 250, 0.986);
+    top: 19%;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.312);
+    background: rgba(38, 59, 250, 0.986);
 }
