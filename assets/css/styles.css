@@ -16,7 +16,7 @@ body {
 
 #header {
   height: 100vh;
-  background-image: url("/assets/img/volvo2.jpeg");
+  background-image: url("/assets/img/volvo5.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -52,7 +52,7 @@ body {
   font-family: "Open Sans", Helvetica;
   border-radius: 4px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.986);
-  background: rgb(75, 86, 230);
+  background: linear-gradient(45deg, rgb(30, 43, 223), rgb(100, 108, 231));
   color: rgba(0, 0, 0, 0.986);
   box-shadow: 0px 0px 0px rgba(66, 62, 6, 0.349);
   -webkit-transform: translateZ(0);
