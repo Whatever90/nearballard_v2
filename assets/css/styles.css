@@ -1,40 +1,62 @@
-p {
-  font-weight:600;
-  font-size:x-large;
-}
-
-#logo{
-  float: left;
-}
-
 body {
-  margin:0px auto;
+  margin: 0px auto;
 }
-#heading{
+
+p {
+  font-weight: 600;
+  font-size: x-large;
+}
+
+/* NAVBAR */
+#nav {
+  height: 5rem;
+}
+
+#nav-container {
+  width: 80%;
+}
+
+#nav-content-container {
   width: 100%;
 }
 
+#logo-container {
+  height: 100%;
+}
+
+#logo {
+  height: 100%;
+  width: 15rem;
+}
+
+#heading {
+  width: 100%;
+}
+
+/* HEADER */
 #header {
   height: 100vh;
+  /* width: 100%; */
   background-image: url("/assets/img/volvo2.jpeg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
 }
-#heading-info{
+
+#heading-info {
   /* background-color: rgba(255, 255, 255, 0.274); */
 }
-.contact_info{
+
+.contact_info {
   float: right;
 }
-.button-box{
- top:  50%;
- margin: 0px auto;
+
+.button-box {
+  top: 50%;
+  margin: 0px auto;
 }
 
-.button {
-}
 .button {
   background: transparent;
   border: 0;
@@ -42,6 +64,10 @@ body {
   cursor: pointer;
   outline: 0;
   -webkit-appearance: none;
+}
+
+.button-text {
+  color: yellow;
 }
 
 /* Custom */
@@ -56,22 +82,22 @@ body {
   color: rgba(0, 0, 0, 0.986);
   box-shadow: 0px 0px 0px rgba(66, 62, 6, 0.349);
   -webkit-transform: translateZ(0);
-     -moz-transform: translateZ(0);
-      -ms-transform: translateZ(0);
-          transform: translateZ(0);
+  -moz-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
   -webkit-transition: all 0.2s ease;
-     -moz-transition: all 0.2s ease;
-      -ms-transition: all 0.2s ease;
-          transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  transition: all 0.2s ease;
 }
 
 .button:hover {
   top: 19.6%;
   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.418);
   -webkit-transform: rotateX(20deg);
-     -moz-transform: rotateX(20deg);
-      -ms-transform: rotateX(20deg);
-          transform: rotateX(20deg);
+  -moz-transform: rotateX(20deg);
+  -ms-transform: rotateX(20deg);
+  transform: rotateX(20deg);
 }
 
 .button:active {
