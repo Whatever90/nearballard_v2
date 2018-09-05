@@ -7,45 +7,23 @@ p {
   font-size: x-large;
 }
 
-/* NAVBAR */
-#nav {
-  height: 5rem;
-}
-
-#nav-container {
-  width: 80%;
-}
-
-#nav-content-container {
-  width: 100%;
-}
-
-#logo-container {
-  height: 100%;
-}
-
-#logo {
-  height: 100%;
-  width: 15rem;
-}
-
 #heading {
   width: 100%;
+}
+
+#nav {
+  height: 8rem;
+  background-color: lightpink;
 }
 
 /* HEADER */
 #header {
   height: 100vh;
-  /* width: 100%; */
   background-image: url("/assets/img/volvo2.jpeg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
-}
-
-#heading-info {
-  /* background-color: rgba(255, 255, 255, 0.274); */
 }
 
 .contact_info {
@@ -66,10 +44,6 @@ p {
   -webkit-appearance: none;
 }
 
-.button-text {
-  color: yellow;
-}
-
 /* Custom */
 .button {
   display: inline-block;
@@ -78,7 +52,7 @@ p {
   font-family: "Open Sans", Helvetica;
   border-radius: 4px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.986);
-  background: rgb(75, 86, 230);
+  background: linear-gradient(45deg, rgb(30, 43, 223), rgb(100, 108, 231));
   color: rgba(0, 0, 0, 0.986);
   box-shadow: 0px 0px 0px rgba(66, 62, 6, 0.349);
   -webkit-transform: translateZ(0);
