@@ -16,42 +16,13 @@
 </head>
 
 <body>
-    <!-- <div class="row" id="header" style='display: block;'>
-        <div class="col">
-            <div class="container" id="heading">
-                <div class="row" id="heading-info">
-                    <div class="col-md-6" id="logo">
-                        <img src="assets/img/Untitled.png" width="66%" style='float: left;'>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <h5 class="contact_info">Phone: (206) 789-7004</h5>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-12">
-                                <h5 class="contact_info">1440 NW Leary Way</h5>
-                            </div>
-                            <div class="col-md-12">
-                                <h5 class="contact_info">Seattle, WA, 98107</h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class='button-box'>
-            <button class="button"><span style="color: yellow">Set an appointment</span></button>
-        </div>
-    </div> -->
     <nav class="navbar" id="nav">
-        <div class="container h-100" id="nav-container">
+        <div class="h-100" id="nav-container">
             <div class="d-flex justify-content-between align-items-center h-100 w-100" id="nav-content-container">
-                <div class="h-100" id="logo-container">
+                <div class="h-100" id="nav__logo-container">
                     <img class="img-fluid" src="assets/img/logo.png">
                 </div>
-                <div class="h-100">
+                <div class="h-100" id="nav__text-container">
                     <div class="h-100">
                         <div class="d-flex flex-column align-items-end h-100">
                             <span class="text-right font-weight-bold">Phone: (206) 789-7004</span>
@@ -63,13 +34,11 @@
             </div>
         </div>
     </nav>
-    <!--
-    <header class="row" id="header">
-        <div class='button-box'>
-            <button class="button">
-                <span class="button-text">Set an appoinment</span>
-            </button>
-        </div>
+    <header id="header">
+        <button class="button" id="header-button">Set an appointment</button>
+        <!-- <div class='button-box'>
+            <button class="">Set an appoinment</button>
+        </div> -->
     </header>
 
     <div class="map-clean">
@@ -117,7 +86,7 @@
                 <div class="clearfix"></div>
             </div>
         </div>
-    </div> -->
+    </div>
     <script>
         $(document).ready(function () {
             $("button").click(function () {

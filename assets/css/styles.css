@@ -7,38 +7,62 @@ p {
   font-size: x-large;
 }
 
-#heading {
-  width: 100%;
-}
-
+/* NAVBAR */
 #nav {
+  width: 100%;
   height: 6rem;
-  background-color: lightpink;
+  position: absolute;
+  top: 0;
+  justify-content: center !important;
+  /* background-color: rgba(75, 75, 75, 0.872);
+  color: white; */
 }
 
 #nav-container {
-  width: 75%;
+  width: 70%;
 }
 
-#logo-container {
+#nav__logo-container {
   width: 21rem;
+}
+
+#nav__text-container {
+  width: 50%;
 }
 
 /* HEADER */
 #header {
-  height: 100vh;
-  background-image: url("/assets/img/volvo2.jpeg");
+  height: 110vh;
+  background-image: url("/assets/img/volvo7.jpeg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
 }
 
-.contact_info {
-  float: right;
+#header-button {
+  width: 21%;
+  max-width: 20rem;
+  position: relative;
+  left: 0;
+  top: 75%;
+  padding: 1.5rem 0;
+  cursor: pointer;
+  border: 0;
+  border-radius: 3px;
+  background-color: blue;
+  box-shadow: 0 2px 0 0 #1e148f;
+  font-size: 1.5rem;
+  font-family: "Open Sans", Helvetica;
+  color: white;
 }
 
-.button-box {
+#header-button:hover {
+  background-color: rgb(2, 2, 223);
+}
+
+/* BUTTON */
+/* .button-box {
   top: 50%;
   margin: 0px auto;
 }
@@ -52,7 +76,6 @@ p {
   -webkit-appearance: none;
 }
 
-/* Custom */
 .button {
   display: inline-block;
   padding: 20px 38px;
@@ -86,6 +109,134 @@ p {
   top: 19%;
   box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.312);
   background: rgba(38, 59, 250, 0.986);
+} */
+/* CONTACT INFO */
+.contact_info {
+  float: right;
 }
 
-@media only screen and (max-width: 1024px) {}
+@media only screen and (max-width: 1024px) {
+
+  /* NAVBAR */
+  #nav-container {
+    width: 100%;
+  }
+
+  /* HEADER */
+  #header-button {
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (max-width: 961px) {
+
+  /* HEADER */
+  #header-button {
+    font-size: 1rem;
+    padding: 1.2rem 0;
+  }
+}
+
+@media only screen and (max-width: 861px) {
+
+  /* HEADER */
+  #header-button {
+    font-size: .9rem;
+    padding: 1rem 0;
+  }
+}
+
+@media only screen and (max-width: 681px) {
+
+  /* HEADER */
+  #header-button {
+    width: 30%;
+    font-size: 1rem;
+    padding: 1rem 0;
+  }
+}
+
+@media only screen and (max-width: 601px) {
+
+  /* NAVBAR */
+  #nav {
+    height: 5rem;
+  }
+
+  #nav__logo-container {
+    width: 15rem;
+  }
+
+  #nav__text-container {
+    font-size: .8rem;
+  }
+
+  /* HEADER */
+  #header-button {
+    width: 35%;
+    font-size: 1rem;
+    padding: 1rem 0;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+
+  /* NAVBAR */
+  #nav {
+    height: 4rem;
+  }
+
+  #nav__logo-container {
+    width: 13rem;
+  }
+
+  #nav__text-container {
+    font-size: .7rem;
+  }
+
+  /* HEADER */
+  #header-button {
+    width: 40%;
+    font-size: 1rem;
+    padding: 1rem 0;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+
+  /* NAVBAR */
+  #nav {
+    height: 4rem;
+  }
+
+  #nav__logo-container {
+    width: 10rem;
+  }
+
+  #nav__text-container {
+    font-size: .6rem;
+  }
+
+  /* HEADER */
+  #header-button {
+    width: 50%;
+    font-size: 1rem;
+    padding: 1rem 0;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+
+  /* NAVBAR */
+  #nav {
+    height: 4rem;
+  }
+
+  #nav__logo-container {
+    width: 8rem;
+  }
+
+  #nav__text-container {
+    font-size: .4rem;
+  }
+}
