@@ -7,6 +7,10 @@ p {
   font-size: x-large;
 }
 
+.fas {
+  width: 20px;
+}
+
 /* NAVBAR */
 #nav {
   width: 100%;
@@ -14,7 +18,12 @@ p {
   position: absolute;
   top: 0;
   justify-content: center !important;
-  background-color: rgba(255, 255, 255, 0.735);
+  /* background-image: radial-gradient(circle 534px at 18.7% 28.6%, rgb(249, 249, 214) 0%, rgb(180, 244, 225) 90%); */
+  /* background-image: linear-gradient(to right top, #ffffff, #fff0ff, #ffdadf, #ffdf84, #ffff2f); */
+  /* background-image: linear-gradient(to bottom, #ffffff, #fffeff, #fffcfc, #fffdf5, #fffff1); */
+  /* background-image: linear-gradient(to bottom, #ffffe9, #fff9ed, #fff6f5, #fcf6f9, #f5f5f5); */
+  /* background-image: linear-gradient(to top, #fffce9, #fff5eb, #fef1f1, #f4eef2, #ececec); */
+  background-image: linear-gradient(to top, #fff6ba, #ffeed1, #fff0f1, #fff8ff, #ffffff);
 }
 
 #nav-container {
@@ -50,18 +59,18 @@ p {
   padding: 1.5rem 0;
   cursor: pointer;
   border: 0;
-  border-radius: 3px;
-  background-color: #fe4242;
-  box-shadow: 0 2px 0 0 #d53434;
+  border-radius: 5px;
+  background-image: linear-gradient(to top, #fffce9, #fff5eb, #fef1f1, #f4eef2, #ececec);
+  box-shadow: 0 2px 0 0 #f4eef2;
   /* background-color: #17a2b8;
   box-shadow: 0 2px 0 0 #0e8a9d; */
   font-size: 1.5rem;
   font-family: "Open Sans", Helvetica;
-  color: white;
+  /* color: white; */
 }
 
 #header-button:hover {
-  background-color: #d53434;
+  background-color: #f4eef2;
   /* background-color: #0e8a9d; */
 }
 
@@ -75,9 +84,9 @@ p {
 }
 
 #form-btn {
-  color: #fff;
+  /* color: #fff; */
   /* background-color: #fe4242 !important; */
-  background-color: #17a2b8 !important;
+  background-color: #f4eef2 !important;
   border-radius: 3px;
 }
 
