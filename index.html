@@ -18,49 +18,62 @@
 </head>
 
 <body>
-
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.1';
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
     <header id="header">
         <nav class="navbar" id="nav">
-            <div class="h-100" id="nav-container">
+            <div class="h-100 d-flex align-items-center" id="nav-container">
                 <div class="d-flex justify-content-between align-items-center h-100 w-100" id="nav-content-container">
-                    <div class="h-100" id="nav__logo-container">
-                        <img class="img-fluid" src="assets/img/logo.png">
+                    <div class="h-100 d-flex align-items-center" id="nav__logo-container">
+                        <img class="img-fluid" src="assets/img/logo.jpg">
                     </div>
                     <div class="h-100" id="nav__text-container">
                         <div class="h-100">
                             <div class="d-flex flex-column align-items-end h-100">
                                 <span class="text-right font-weight-bold">Phone: (206) 789-7004</span>
-                                <span class="contact_info font-weight-bold">1440 NW Leary Way</span>
-                                <span class="contact_info font-weight-bold">Seattle, WA, 98107</span>
+                                <a href="http://maps.google.com/?q=1440 NW Leary way, Seattle, WA, 98107" target="_blank">
+                                    <span class="contact_info contact_info__address font-weight-bold">1440NW Leary Way</span>
+                                </a>
+                                <a href="http://maps.google.com/?q=1440 NW Leary way, Seattle, WA, 98107" target="_blank">
+                                    <span class="contact_info contact_info__address font-weight-bold">Seattle, WA,
+                                        98107</span>
+                                </a>
+                                <button class="button" id="header-button">Set an appointment</button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </nav>
-        <button class="button" id="header-button">Set an appointment</button>
     </header>
 
     <div class="map-clean">
         <div class="container">
             <div class="intro">
                 <h2 class="text-center text-info">Location </h2>
-                <p class="text-center">Nunc luctus in metus eget fringilla. Aliquam sed justo ligula. Vestibulum nibh
-                    erat,
-                    pellentesque ut laoreet vitae. </p>
+                <p class="text-center">
+                    We are located in the Ballard neighborhood of Seattle at NE corner of the Ballard Bridge. We have
+                    been in business at the same location for over 25 years.
+                </p>
             </div>
-        </div><iframe allowfullscreen="" frameborder="0" width="100%" height="450" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyD5rAb7taP3tCOkMKQqVV6ixNhp_iSLsGA%26amp&amp;q=1440+NW+Leary+Way%2C+Seattle%2C+WA%2C+98107&amp;zoom=15"></iframe>
+        </div><iframe allowfullscreen="" frameborder="0" width="100%" height="450" src="https://www.google.com/maps/embed/v1/place?key=amp;q=1440+NW+Leary+Way%2C+Seattle%2C+WA+98107&amp;zoom=15"></iframe>
         <div class="container" id="info-container">
             <div class="row" id="target">
                 <div class="col-md-12">
                     <h2 class="text-center text-info">Contact Us</h2>
                 </div>
                 <div class="col-12 col-sm-6 col-md-6" id="contact-box">
-                    <p id="contact-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel nam magnam natus
-                        tempora
-                        cumque, aliquam deleniti voluptatibus voluptas. Repellat vel, et itaque commodi iste ab,
-                        laudantium
-                        voluptas deserunt nobis. </p>
+                    <p id="contact-text">We have a large selection of used and new Volvo parts. Please call us
+                        regarding availability of parts. We also buy old Volvos.</p>
+                    <p>Hours of operation:</p>
+                    <p>Monday-Friday 8:30-5:30.</p>
+                    <p>Saturday 9:00-4:00</p>
                     <div class="info-box">
                         <i class="fas fa-map-marker-alt"></i>
                         <span class="text-uppercase text-info">Address:
@@ -79,7 +92,7 @@
                     </div>
                 </div>
                 <div class="col-12 col-sm-6 col-md-6 site-form">
-                    <form id="my-form">
+                    <form id="my-form" action="https://formspree.io/baztugutov@gmail.com" method="POST">
                         <div class="form-group"><label class="sr-only" for="firstname">First Name</label><input class="form-control"
                                 type="text" name="firstname" placeholder="First Name" id="firstname"></div>
                         <div class="form-group"><label class="sr-only" for="lastname">Last Name</label><input class="form-control"
@@ -97,6 +110,32 @@
             </div>
         </div>
     </div>
+    <footer class="page-footer font-small unique-color-dark bg-dark text-white pt-1">
+        <div class="footer-content container text-center text-md-left mt3">
+            <div class="row mt-3">
+                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                    <h6 class="text-uppercase font-weight-bold">Company name</h6>
+                    <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <p>Here you can use rows and columns here to organize your footer content. Lorem ipsum dolor sit
+                        amet, consectetur
+                        adipisicing elit.</p>
+                </div>
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                    <h6 class="text-uppercase font-weight-bold">Contact</h6>
+                    <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <p>
+                        <i class="fa fa-home mr-3"></i> 1440 NW Leary Way, Seattle</p>
+                    <p>
+                        <i class="fa fa-phone mr-3"></i> (206) 789-7004</p>
+                    <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="standard"
+                        data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright text-center py-3">© 2018 Copyright:
+            <a href="https://mdbootstrap.com/bootstrap-tutorial/"> MDBootstrap.com</a>
+        </div>
+    </footer>
     <script>
         $(document).ready(function () {
             $("button").click(function () {
