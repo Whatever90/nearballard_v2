@@ -12,19 +12,21 @@
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel='shortcut icon' type='image/x-icon' href="favicon.ico" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
-        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 </head>
 
 <body>
     <div id="fb-root"></div>
-    <script>(function(d, s, id) {
+    <script>
+        (function(d, s, id) {
             var js, fjs = d.getElementsByTagName(s)[0];
             if (d.getElementById(id)) return;
-            js = d.createElement(s); js.id = id;
+            js = d.createElement(s);
+            js.id = id;
             js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.1';
             fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));</script>
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
     <header id="header">
         <nav class="navbar" id="nav">
             <div class="h-100 d-flex align-items-center" id="nav-container">
@@ -56,8 +58,7 @@
             <div class="intro">
                 <h2 class="text-center text-info">Location </h2>
                 <p class="text-center">
-                    We are located in the Ballard neighborhood of Seattle at NE corner of the Ballard Bridge. We have
-                    been in business at the same location for over 25 years.
+                    We are located in the Ballard neighborhood of Seattle at NE corner of the Ballard Bridge. We have been in business at the same location for over 25 years.
                 </p>
             </div>
         </div><iframe allowfullscreen="" frameborder="0" width="100%" height="450" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyD5rAb7taP3tCOkMKQqVV6ixNhp_iSLsGA&amp;q=1440+NW+Leary+Way%2C+Seattle%2C+WA+98107&amp;zoom=15"></iframe>
@@ -67,11 +68,9 @@
                     <h2 class="text-center text-info">Contact Us</h2>
                 </div>
                 <div class="col-12 col-sm-6 col-md-6" id="contact-box">
-                    <p id="contact-text m-0">We have a large selection of used and new Volvo parts. Please call us
-                        regarding availability of parts. We also buy old Volvos.</p>
+                    <p id="contact-text m-0">We have a large selection of used and new Volvo parts. Please call us regarding availability of parts. We also buy old Volvos.</p>
                     <p class="contact-text_hours mb-1 p-0 text-bold">Hours of operation:</p>
-                    <p class="contact-text_hours mb-1 p-0"><span class="text-bold">Monday - Friday</span>
-                        8:30am - 5:30pm</p>
+                    <p class="contact-text_hours mb-1 p-0"><span class="text-bold">Monday - Friday</span> 8:30am - 5:30pm</p>
                     <p class="contact-text_hours mb-2 p-0"><span class="text-bold">Saturday</span> 9:00am - 4:00pm</p>
                     <div class="info-box">
                         <i class="fas fa-map-marker-alt"></i>
@@ -92,17 +91,11 @@
                 </div>
                 <div class="col-12 col-sm-6 col-md-6" id="site-form">
                     <form id="my-form" action="https://formspree.io/nearballard@yahoo.com" method="POST">
-                        <div class="form-group"><label class="sr-only" for="firstname">First Name</label><input class="form-control"
-                                type="text" name="firstname" placeholder="First Name" id="firstname"></div>
-                        <div class="form-group"><label class="sr-only" for="lastname">Last Name</label><input class="form-control"
-                                type="text" name="lastname" placeholder="Last Name" id="lastname"></div>
-                        <div class="form-group"><label class="sr-only" for="phonenumber">Phone Number</label><input
-                                class="form-control" type="tel" name="phonenumber" required="" placeholder="Phone" id="phonenumber"></div>
-                        <div class="form-group"><label class="sr-only" for="email">Email Address</label><input class="form-control"
-                                type="text" name="email" required="" placeholder="Email" id="email"></div>
-                        <div class="form-group"><label class="sr-only" for="messages">Last Name</label><textarea class="form-control"
-                                rows="8" name="messages" required="" placeholder="Message"></textarea></div><button
-                            class="btn btn-light btn-lg" type="submit" id="form-btn">SEND </button>
+                        <div class="form-group"><label class="sr-only" for="firstname">First Name</label><input class="form-control" type="text" name="firstname" placeholder="First Name" id="firstname"></div>
+                        <div class="form-group"><label class="sr-only" for="lastname">Last Name</label><input class="form-control" type="text" name="lastname" placeholder="Last Name" id="lastname"></div>
+                        <div class="form-group"><label class="sr-only" for="phonenumber">Phone Number</label><input class="form-control" type="tel" name="phonenumber" required="" placeholder="Phone" id="phonenumber"></div>
+                        <div class="form-group"><label class="sr-only" for="email">Email Address</label><input class="form-control" type="text" name="email" required="" placeholder="Email" id="email"></div>
+                        <div class="form-group"><label class="sr-only" for="messages">Last Name</label><textarea class="form-control" rows="8" name="messages" required="" placeholder="Message"></textarea></div><button class="btn btn-light btn-lg" type="submit" id="form-btn">SEND </button>
                     </form>
                 </div>
                 <div class="clearfix"></div>
@@ -115,7 +108,7 @@
                 <div class="col-md-3 col-lg-4 col-xl-4 mx-auto mb-4">
                     <h6 class="text-uppercase font-weight-bold">Northern European Auto Recyclers</h6>
                     <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-                    <p>We are working on Volvo cars for over 25 years!</p>
+                    <p>We have been working on Volvo cars for over 25 years!</p>
                 </div>
                 <div class="col-md-4 col-lg-3 col-xl-4 mx-auto mb-md-0 mb-4">
                     <h6 class="text-uppercase font-weight-bold">Contact us</h6>
@@ -124,9 +117,7 @@
                         <i class="fa fa-home mr-3"></i> 1440 NW Leary Way, Seattle</p>
                     <p class="">
                         <i class="fa fa-phone mr-3"></i> (206) 789-7004</p>
-                    <div class="fb-like mt-1 mb-4" data-href="https://developers.facebook.com/docs/plugins/"
-                        data-layout="button_count" data-action="like" data-size="large" data-show-faces="true"
-                        data-share="true"></div>
+                    <div class="fb-like mt-1 mb-4" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button_count" data-action="like" data-size="large" data-show-faces="true" data-share="true"></div>
                 </div>
             </div>
         </div>
