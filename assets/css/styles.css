@@ -11,6 +11,10 @@ body {
     font-weight: 600 !important;
 }
 
+.logo {
+    cursor: pointer;
+}
+
 
 /* NAVBAR */
 
