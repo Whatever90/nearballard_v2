@@ -219,6 +219,9 @@ textarea {
     #nav__text-container {
         font-size: 0.8rem;
     }
+    #header {
+        background: fixed url("/assets/img/bg-mob.jpg") no-repeat center center;
+    }
 }
 
 @media only screen and (max-width: 414px) {
